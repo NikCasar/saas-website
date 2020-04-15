@@ -64,6 +64,9 @@ li a:hover {
 
 .img-flex {
   width: 100%;
+}
+
+.logo {
   border-radius: 50%;
 }
 
@@ -162,4 +165,10 @@ a:focus {
 
 .skip-links a:focus {
   top: 0;
+}
+
+.login-page {
+  border-width: 2px;
+  border-color: #5f9ea0;
+  border-style: solid;
 }

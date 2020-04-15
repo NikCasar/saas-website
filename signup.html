@@ -17,21 +17,22 @@
   </ul>
   <div class="grid">
     <header role="banner">
-      <div class="unit">
-        <img src="" alt="">
-        <h1 class="">Bussiness Whale</h1>
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter pad-t left">
+        <img class="img-flex logo island-1-2" src="images/whale-tail-1.jpg" alt="" role="presentation">
       </div>
-      <div class="unit">
-        <nav class="nav">
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter pad-t">
+        <h1 class="yotta">Bussiness Whale</h1>
+      </div>
+      <div class="unit xs-1 s-1 m-1 l-1">
+        <nav role="navigation" id="nav" class="nav" tabindex="0">
           <ul class="giga list-group">
-            <li> <a href="index.html">Home</a></li>
-            <li> <a href="essential.html">Essentials</a></li>
-            <li> <a href="market.html">Marketing</a></li>
-            <li> <a href="mange.html">Mangement</a></li>
-            <li> <a href="signup.html">Sign-up</a></li>
+            <li><a class="island-1-2 text-center" href="index.html">Home</a></li>
+            <li><a class="island-1-2" href="essential.html">Essentials</a></li>
+            <li><a class="island-1-2" href="market.html">Marketing</a></li>
+            <li><a class="island-1-2" href="mange.html">Mangement</a></li>
+            <li><a class="island-1-2" href="signup.html">Sign-up</a></li>
           </ul>
         </nav>
-        <img src="" alt="">
       </div>
     </header>
   </div>
@@ -39,8 +40,10 @@
   <main class="gutter">
     <section>
       <div class="">
-        <h2>Sign up for free!</h2>
-        <img src="" alt="">
+        <fieldset>
+          <legend class="pad-t peta">Sign up for free!</legend>
+        </fieldset>
+        <img class="img-flex island-1-2" src="images/whail-tail-2.jpg" alt="">
         <form class="" action="index.html" method="post">
           <div class="">
             <label for="name">Name</label>
@@ -59,6 +62,10 @@
             <input  id="password" type="password" name="" value="" required>
           </div>
           <div class="">
+            <label for="password">Repeat Password</label>
+            <input  id="password" type="password" name="" value="" required>
+          </div>
+          <div class="">
             <label for="plan">Chose a Plan</label>
             <select class=""id="plan-list" required>
               <option value="free">Free</option>
@@ -71,17 +78,22 @@
             <label for="details">Explain the type of company you run.</label>
             <textarea name="details" rows="8" cols="80" required></textarea>
           </div>
-          <div class="pad-t">
-            <button class="btn" type="submit" name="button">Sign-up</button>
+          <div class="pad-t-1-2">
+            <p class="nano italic">By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+          </div>
+          <div class="pad-b">
+            <button class="btn unit xs-1 s-1 m-1 l-1" type="submit" name="button">Sign-up</button>
+          </div>
+          <div class="">
+            <p class="nano">Already have an account? <a href="#">Sign in</a>.</p>
           </div>
         </form>
       </div>
     </section>
   </main>
-    <footer>
-      <div class="">
-        <small>&copy; 2020 BusinessWhale.com</small>
-      </div>
+  <footer role="contentinfo" class="pad-t pad-b">
+    <div class="gutter">
+      <small class="pico">&copy; 2020 BusinessWhale.com</small>
     </footer>
   </body>
 </html>

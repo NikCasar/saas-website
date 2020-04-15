@@ -52,3 +52,8 @@ li a {
 li a:hover {
   background-color: #2f4f4f;
 }
+
+.img-flex {
+  width: 100%;
+  border-radius: 50%;
+}

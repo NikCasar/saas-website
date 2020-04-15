@@ -53,6 +53,15 @@ li a:hover {
   background-color: #2f4f4f;
 }
 
+.btn {
+  background-color: #008b8b;
+  border-color: #008b8b;
+}
+
+.slogan {
+  color: #20b2aa;
+}
+
 .img-flex {
   width: 100%;
   border-radius: 50%;
@@ -112,17 +121,17 @@ li a:hover {
 
 .dot {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
+  height: 10px;
+  width: 10px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color:  #20b2aa;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #008b8b;
 }
 
 .fade {
@@ -140,4 +149,17 @@ li a:hover {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+a:focus {
+  outline: 3px solid #000;
+}
+
+.skip-links a {
+  position: absolute;
+  top: -3em;
+}
+
+.skip-links a:focus {
+  top: 0;
 }

@@ -172,3 +172,28 @@ a:focus {
   border-color: #5f9ea0;
   border-style: solid;
 }
+
+label {
+  display: block;
+  color:  #2f4f4f;
+}
+
+form div {
+  margin-bottom: 1.5rem;
+}
+
+input,
+select,
+textarea {
+  width: 15em;
+  font-size: 1.125rem;
+  border: 2px solid #008b8b;
+  background-color: #e2e2e2;
+  border-radius: 5px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  background-color: #fff;
+}

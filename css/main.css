@@ -1,16 +1,5 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
 html {
-  box-sizing: border-box;
   font-family: 'Alata', sans-serif;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
 }
 
 body {
@@ -199,4 +188,18 @@ hr {
 
 fieldset {
   border: 0;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border-bottom: 1px solid  #2f4f4f;
+  padding: 0.75em;
+}
+
+th {
+  color:  #20b2aa;
 }

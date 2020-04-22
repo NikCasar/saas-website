@@ -12,7 +12,7 @@ header {
 
 footer {
   background-color: #2f4f4f;
-  color:  #f5f5f5;
+  color: #f5f5f5;
 }
 
 ul {
@@ -84,7 +84,7 @@ li a:hover {
 
 .prev:hover,
 .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .text {
@@ -110,7 +110,7 @@ li a:hover {
   height: 10px;
   width: 10px;
   margin: 0 2px;
-  background-color:  #20b2aa;
+  background-color: #20b2aa;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
@@ -153,7 +153,7 @@ a:focus {
 
 label {
   display: block;
-  color:  #2f4f4f;
+  color: #2f4f4f;
 }
 
 form div {
@@ -196,5 +196,5 @@ th {
 }
 
 th {
-  color:  #20b2aa;
+  color: #20b2aa;
 }
